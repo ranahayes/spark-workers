@@ -28,12 +28,7 @@
   "labels": {},
   "machineType": "projects/spark-408012/zones/europe-west1-b/machineTypes/e2-medium",
   "metadata": {
-    "items": [
-      {
-        "key": "startup-script",
-        "value": "value": "#! /bin/bash\n# apt update\n# curl --output spark.tgz https://dlcdn.apache.org/spark/spark-3.3.1/spark-3.3.1-bin-hadoop3.tgz\n# apt -y install default-jdk\n# tar -xzvf spark.tgz\n# ./spark-3.3.1-bin-hadoop3/sbin/start-slave.sh spark://spark-master.europe-west1-b.c.spark-408012.internal:7077"
-      }
-    ]
+    "items": []
   },
   "name": "slave1",
   "networkInterfaces": [
