@@ -26,7 +26,7 @@
   "guestAccelerators": [],
   "keyRevocationActionType": "STOP",
   "labels": {},
-  "machineType": "projects/spark-spark-408012/zones/europe-west1-b/machineTypes/e2-medium",
+  "machineType": "projects/spark-408012/zones/europe-west1-b/machineTypes/e2-medium",
   "metadata": {
     "items": [
       {
