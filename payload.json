@@ -31,8 +31,8 @@
     "items": [
       {
         "key": "startup-script",
-        "value": "apt update curl --output spark.tgz https://dlcdn.apache.org/spark/spark-3.5.0/spark-3.5.0-bin-hadoop3.tgz apt -y install default-jdk tar -xzvf spark.tgz ./spark-3.5.0-bin-hadoop3/sbin/start-slave.sh spark://spark-master.europe-west1-b.c.spark-408012.internal:7077"
-      }
+        "value": "apt update; curl --output spark.tgz https://dlcdn.apache.org/spark/spark-3.5.0/spark-3.5.0-bin-hadoop3.tgz; apt -y install default-jdk; tar -xzvf spark.tgz; ./spark-3.5.0-bin-hadoop3/sbin/start-slave.sh spark://spark-master.europe-west1-b.c.spark-408012.internal:7077"
+
     ]
   },
   "name": "slave1",
