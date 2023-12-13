@@ -4,7 +4,7 @@ import requests
 import os
 import json
 app = Flask(__name__)
-
+@app.route("key")
 def get_api_key() -> str:
     secret = os.environ.get("COMPUTE_API_KEY")
     if secret:
@@ -20,8 +20,8 @@ def hello():
 
 @app.route("/test")
 def test():
-    return "Test" # testing
     return(get_api_key())
+    return "Test" 
 
 @app.route("/add",methods=['GET','POST'])
 def add():
