@@ -20,7 +20,7 @@ def hello():
 
 @app.route("/test")
 def test():
-    #return "Test" # testing 
+    return "Test" # testing
     return(get_api_key())
 
 @app.route("/add",methods=['GET','POST'])
