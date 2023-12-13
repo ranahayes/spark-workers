@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route("/key")
 def get_api_key() -> str:
-    secret = "your_hardcoded_api_key_here"
+    secret = "ya29.a0AfB_byCJpM-BkZQuFmEAKk_3b24OuHOpL6GQ-fFMpXlVzusfebMVGUHGtPLn7AkqLBNIsNuZKbd_Fk4P9kFMlc4f5qqRLk-M5wOTEXlEZPlggS-Vs4syT9SvseI-x3Aw6TDJIktFeQIHzI1zOtxK7SzCjz9ZQ8-9Rmkuu8GnbUrrGu2QIefGw-JbmviG7w4m-yQqfkvgEkvDMSJ-SCq6V0rNaX9FZZlI88oPWDZ8J_gLfDzre8IpbX6KpDuD8PI5n3lQP4ixKyfpa1WCCh35oiZS6zLKl9SG-pprCfyx4hyWduZbvR_rEfQRpWlPiFMehfrPs1gYfqr_QdWBe7l6qnp3zGE5kqV3crHeYMGWqSLrOGdXJ7lQGzuIX5VBGrdQNK6YYiiIf1RqPOIs2wWGty9YDwVI_hMaCgYKAYASARISFQHGX2Mi4HbqHl2oGjuZXVUfR6Sjcg0422"
     return secret
 
       
