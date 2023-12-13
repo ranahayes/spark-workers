@@ -45,7 +45,8 @@
         }
       ],
       "stackType": "IPV4_ONLY",
-      "subnetwork": "projects/spark-408012/zones/europe-west1/subnetworks/default"
+      "subnetwork": "projects/spark-408012/regions/europe-west1/subnetworks/default"
+
     }
   ],
   "reservationAffinity": {
