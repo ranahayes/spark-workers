@@ -4,15 +4,12 @@ import requests
 import os
 import json
 app = Flask(__name__)
+
 @app.route("/key")
 def get_api_key() -> str:
-    secret = os.environ.get("compute-api-key")
-    if secret:
-        return secret
-    else:
-        #local testing
-        with open('.key') as f:
-            return f.read()
+    secret = "your_hardcoded_api_key_here"
+    return secret
+
       
 @app.route("/")
 def hello():
